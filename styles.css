@@ -50,6 +50,11 @@ body {
     justify-content: space-evenly;
 }
 
+.angle {
+    height: 1.2em;
+    width: 1.2em;
+    vertical-align: bottom;
+}
 .rogue {
     max-height: 100%;
     max-width: 100%;
@@ -138,6 +143,7 @@ main {
     width: 85%;
     /* background-color: rgb(86, 180, 233); */
     background-color: rgb(229, 246, 255);
+    color: rgb(129, 49, 94)
 }
 /* --------top search bar---------------------------------------------  */
 .top-search-field {
@@ -213,13 +219,71 @@ main {
     height: 1.5em;
     width: 1.5em;
 }
-/* ------------------------------------------------------------------------  */
+/* -------h1-----------------------------------------------------------------  */
 .header {
     height: 12%;
     width: 100%;
-    background-color: rgb(204, 121, 167);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
 }
 
+.heading{
+    width: 60%;
+}
+
+.cocktail {
+    height: 1em;
+    width: 1em;
+}
+
+.preview {
+    color:rgb(192, 89, 146);
+}
+
+.p-envelope {
+    padding: .5em;
+    border: solid rgb(86, 180, 233);
+    border-width: .2em;
+    border-radius: 25%;
+}
+.envelope {
+    height: 1em;
+    width: 1em;
+}
+
+.three-icons {
+
+    height: 100%;
+    width: 50%:
+}
+.tags,
+.pencil,
+.trash {
+    /* padding: 2em; */
+    height: 1em;
+    width: 1em;
+    border: solid rgb(86, 180, 233);
+    /* border-width: .2em;
+    border-radius: 50%; */
+}
+
+.options {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.p-envelope,
+.location,
+.preview {
+    font-size: small;
+}
+
+/* -------------------------------------------------------------- */
 .data-nav-tabs {
     height: 5%;
     width: 100%;
