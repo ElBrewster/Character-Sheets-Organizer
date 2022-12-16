@@ -339,7 +339,8 @@ form,
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: stretch;
     border-top-style: solid;
     border-top-width: .1em;
     border-top-color: rgb(255, 247, 229);
@@ -349,19 +350,17 @@ form,
     background-color: rgb(255, 231, 179);
 }
 .other-chart-container,
-.pie-chart-container {
+.bar-chart-container {
     max-height: 100%;
     max-width: 50%;
     object-fit: contain;
 }
-/* .chart2021 {
-    padding: 1em;
-} */
-.other-chart-container {
-    margin-left: -2em;
+
+.bar-chart {
+    margin-left: 1.5em;
 }
 .chart2021,
-.pie-chart {
+.bar-chart {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
@@ -378,11 +377,23 @@ form,
 .character-sheet {
     height: 100%;
     width: 70%;
-    background-color: rgb(204, 121, 167);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: rgb(204, 121, 167); */
+    background-color: rgb(255, 231, 179);
+}
+
+.page {
+    height: 95%;
+    width: 85%;
+    background-color:rgb(229, 246, 255);
 }
 
 .sidebar {
     height: 100%;
     width: 30%;
-    background-color: rgb(213, 94, 0);
+    /* background-color: rgb(213, 94, 0); */
+    background-color: rgb(255, 231, 179);
+
 }
