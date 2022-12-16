@@ -139,12 +139,62 @@ main {
     /* background-color: rgb(86, 180, 233); */
     background-color: rgb(229, 246, 255);
 }
-
+/* --------top search bar---------------------------------------------  */
 .top-search-field {
     height: 5%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom-width: .1em;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(86, 180, 233);
 }
 
+.pancake {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 8%;
+    border-right-width: .1em;
+    border-right-style: solid;
+    border-right-color: rgb(86, 180, 233, .6);
+    /* background-color: rgb(86, 180, 233); */
+}
+.search-bar {
+    height: 100%;
+    width: 68%;
+}
+
+.add-friend,
+.calendar-notification,
+.grid-menu {
+    height: 100%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left-width: .1em;
+    border-left-style: solid;
+    border-left-color: rgb(86, 180, 233, .6);
+    /* background-color: rgb(86, 180, 233); */
+}
+.caret-left {
+    height: 1em;
+    width: 1em;
+}
+.menu-burger {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.following,
+.calendar-clock,
+.grid {
+    height: 1.5em;
+    width: 1.5em;
+}
+/* ------------------------------------------------------------------------  */
 .header {
     height: 12%;
     width: 100%;
