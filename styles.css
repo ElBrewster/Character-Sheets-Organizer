@@ -392,13 +392,45 @@ form,
     color: rgb(204, 121, 167, .6);
     background-color:rgb(229, 246, 255);
 }
+
 .top-description-bar {
     height: 8%;
     width: 100%;
-    background-color:rgb(86, 180, 233);
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 82, 128, .8);
     color:rgb(229, 246, 255);
 
 }
+
+.position-title2,
+.job-location2,
+.employment-type2,
+.experience-gain2,
+.job-status2,
+.job-description2,
+.hiring-lead2,
+.approved-salary2 {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.position-title3,
+.job-location3,
+.employment-type3,
+.experience-gain3,
+.job-status3,
+.job-description3,
+.hiring-lead3,
+.approved-salary3 {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
 .position-title,
 .job-location,
 .employment-type,
@@ -406,6 +438,8 @@ form,
 .job-status {
     height: 8%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
     font-size: .7em;
     font-weight: 700;
     color: rgb(204, 121, 167)
@@ -413,6 +447,8 @@ form,
 .job-description {
     height: 25%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
     font-size: .7em;
     font-weight: 700;
     color: rgb(204, 121, 167, .6)
@@ -420,13 +456,17 @@ form,
 .hiring-lead {
     height:15%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
     font-size: .7em;
     font-weight: 700;
     color: rgb(204, 121, 167, .6)
 }
 .approved-salary {
-    height: 6%;
+    height: 8%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
     font-size: .7em;
     font-weight: 700;
     color: rgb(204, 121, 167, .6)
