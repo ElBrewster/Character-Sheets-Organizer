@@ -387,7 +387,54 @@ form,
 .page {
     height: 95%;
     width: 85%;
+    font-size: .7em;
+    font-weight: 700;
+    color: rgb(204, 121, 167, .6);
     background-color:rgb(229, 246, 255);
+}
+.top-description-bar {
+    height: 8%;
+    width: 100%;
+    background-color:rgb(86, 180, 233);
+    color:rgb(229, 246, 255);
+
+}
+.position-title,
+.job-location,
+.employment-type,
+.experience-gain,
+.job-status {
+    height: 8%;
+    width: 100%;
+    font-size: .7em;
+    font-weight: 700;
+    color: rgb(204, 121, 167)
+}
+.job-description {
+    height: 25%;
+    width: 100%;
+    font-size: .7em;
+    font-weight: 700;
+    color: rgb(204, 121, 167, .6)
+}
+.hiring-lead {
+    height:15%;
+    width: 100%;
+    font-size: .7em;
+    font-weight: 700;
+    color: rgb(204, 121, 167, .6)
+}
+.approved-salary {
+    height: 6%;
+    width: 100%;
+    font-size: .7em;
+    font-weight: 700;
+    color: rgb(204, 121, 167, .6)
+}
+.invisible-yellow {
+    height: 4%;
+    width: 100%;
+    background-color: rgb(255, 231, 179);
 }
 
 .sidebar {
