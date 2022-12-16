@@ -161,9 +161,28 @@ main {
     border-right-color: rgb(86, 180, 233, .6);
     /* background-color: rgb(86, 180, 233); */
 }
-.search-bar {
+.search-container {
     height: 100%;
     width: 68%;
+}
+
+.search {
+    background-image: url("./assets/search-dollar.svg");
+    background-position: 2em 1em;
+    background-size: 1.2em 1.2em;
+    background-repeat: no-repeat;
+    border: none;
+    height: 100%;
+    width: 100%;
+    color: rgb(204, 121, 167, .6)
+}
+
+.search::placeholder {
+    border: none;
+    padding-left: 3.7em;
+    font-size: 1em;
+    font-weight: 300;
+    color:rgb(239, 212, 227);
 }
 
 .add-friend,
