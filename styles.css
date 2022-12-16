@@ -202,8 +202,8 @@ main {
     border-left-width: .1em;
     border-left-style: solid;
     border-left-color: rgb(86, 180, 233, .6);
-    /* background-color: rgb(86, 180, 233); */
 }
+
 .caret-left {
     height: 1em;
     width: 1em;
@@ -231,6 +231,7 @@ main {
 }
 
 .heading{
+    padding-left: .5em;
     width: 60%;
 }
 
@@ -304,23 +305,39 @@ form,
     height: 1.5em;
     width: 1.5em;
 }
-
-
-
 /* -------------------------------------------------------------- */
 .data-nav-tabs {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
     height: 5%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top-style: solid;
+    border-top-width: .1em;
+    border-top-color: rgb(255, 247, 229);
     background-color: rgb(255, 231, 179);
 }
+.summary,
+.applicants,
+.job-listings,
+.interviews,
+.activity,
+.broadcast,
+.notifications {
+    font-size: .7em;
+    font-weight: 700;
+}
 
+/* ------------------------------------------------------------------ */
 .data-graphs {
     height: 25%;
     width: 100%;
+    border-top-style: solid;
+    border-top-width: .1em;
+    border-top-color: rgb(255, 247, 229);
+    background-color: rgb(255, 231, 179);
+
 }
 
 .main-details {
