@@ -64,14 +64,15 @@
                     <h1>Pickup Local Trash</h1>
                     <h2 class="location"><img src="./assets/cocktail-alt.svg" alt="cocktail" class="cocktail">&nbspThe One Eyed Beholder&nbsp&nbsp&#9900&nbsp&nbsp<span class="preview">Preview this post</span></h2>
                 </div>
-                <section class="options">
-                    <section class="p-envelope"><img src="./assets/envelope-open.svg" alt="envelope-open" class="envelope">&nbsp&nbsp&nbspopen</section>
-                    <section class="three-icons">
-                        <img src="./assets/tags.svg" alt="tags" class="tags">
-                        <img src="./assets/pencil.svg" alt="pencil" class="pencil">
-                        <img src="./assets/trash.svg" alt="trash" class="trash">
-                    </section>
-                </section>
+                <form class="options" input type="button">
+                    <button class="form-open-button">
+                        <img src="./assets/envelope-open.svg" alt="envelope-open" class="envelope" id="open">
+                        <label for="open" class="p-envelope">&nbsp&nbsp&nbspopen</label>
+                    </button>
+                    <button type="button" class="button-tags" name="tags"><img src="./assets/tags.svg" alt="tags" class="tags"></button>
+                    <button type="button" class="button-pencil" name="pencil"><img src="./assets/pencil.svg" alt="pencil" class="pencil"></button>
+                    <button type="button" class="button-trash" name="trash"><img src="./assets/trash.svg" alt="trash" class="trash"></button>
+                </form>
             </section>
             <section class="data-nav-tabs">
                 <section class="summary">&nbspSUMMARY</section>
