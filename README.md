@@ -11,7 +11,7 @@ I am the sole contributor.
 <img alt="screen shot of composition" src="assets/Screen Shot 2022-12-16 at 4.15.24 PM.png">
 
 ### `Assignment Reference`
-<img alt="composition reference" src="https://github.com/ElBrewster/Character-Sheets-Organizer/blob/main/assets/Screen%20Shot%202022-12-16%20at%204.15.24%20PM.png">
+<img alt="composition reference" src="[https://github.com/ElBrewster/Character-Sheets-Organizer/blob/main/assets/Screen%20Shot%202022-12-16%20at%204.15.24%20PM.png](https://github.com/ElBrewster/Character-Sheets-Organizer/blob/main/assets/static-comp-challenge-3.jpg)">
 
 ### `On Color Choice and Color Theory, Attributions`
 I've been thinking a lot about accessibility with color, and chose to implement some others' work here:
