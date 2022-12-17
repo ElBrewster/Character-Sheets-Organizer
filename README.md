@@ -1,5 +1,5 @@
 ### `Abstract`
-It can be nice to evaluate how much HTML/CSS tooling you can do in a short space of time. This is a static composition of a webpage based on an image provided by my PM. I took liberties with colors and photos and theme, but otherwise faithfully repoduced the original image (see below my screen shot for the reference). The form, buttons, and search field are all functional and ready for JavaScript handling. I regret that I ran out of time to complete the article section, but am happy with what I was able to do.
+It can be nice to evaluate how much HTML/CSS tooling you can do in a short space of time. This is a static composition of a webpage based on an image provided by my PM. I took liberties with colors and photos and theme, but otherwise faithfully repoduced the original image (see below my screen shot for the reference). The form, buttons, search field and menus are all functional and ready for JavaScript handling. I regret that I ran out of time to complete the article section, but am happy with what I was able to do.
 
 
 ### `Contributors:`
