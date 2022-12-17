@@ -387,6 +387,9 @@ form,
 .page {
     height: 95%;
     width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: .7em;
     font-weight: 700;
     color: rgb(204, 121, 167, .6);
@@ -396,11 +399,17 @@ form,
 .top-description-bar {
     height: 8%;
     width: 100%;
+    padding-left: 3em;
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: rgb(0, 82, 128, .8);
     color:rgb(229, 246, 255);
 
+}
+.page-body {
+    height: 100%;
+    width: 90%;
 }
 
 .position-title2,
@@ -413,6 +422,7 @@ form,
 .approved-salary2 {
     height: 100%;
     width: 30%;
+    padding-left: 1em;
     display: flex;
     align-items: center;
 }
@@ -427,8 +437,11 @@ form,
 .approved-salary3 {
     height: 100%;
     width: 70%;
+    padding-right: 1em;
     display: flex;
     align-items: center;
+    color: rgb(204, 121, 167, .6)
+
 }
 
 .position-title,
@@ -442,6 +455,9 @@ form,
     flex-direction: row;
     font-size: .7em;
     font-weight: 700;
+    border-bottom-style: solid;
+    border-bottom-width: .1em;
+    border-bottom-color:rgb(0, 82, 128, .4);
     color: rgb(204, 121, 167)
 }
 .job-description {
@@ -451,7 +467,10 @@ form,
     flex-direction: row;
     font-size: .7em;
     font-weight: 700;
-    color: rgb(204, 121, 167, .6)
+    border-bottom-style: solid;
+    border-bottom-width: .1em;
+    border-bottom-color:rgb(0, 82, 128, .4);
+    color: rgb(204, 121, 167)
 }
 .hiring-lead {
     height:15%;
@@ -460,7 +479,10 @@ form,
     flex-direction: row;
     font-size: .7em;
     font-weight: 700;
-    color: rgb(204, 121, 167, .6)
+    border-bottom-style: solid;
+    border-bottom-width: .1em;
+    border-bottom-color:rgb(0, 82, 128, .4);
+    color: rgb(204, 121, 167)
 }
 .approved-salary {
     height: 8%;
@@ -469,18 +491,30 @@ form,
     flex-direction: row;
     font-size: .7em;
     font-weight: 700;
-    color: rgb(204, 121, 167, .6)
+    color: rgb(204, 121, 167)
 }
+
 .invisible-yellow {
     height: 4%;
     width: 100%;
     background-color: rgb(255, 231, 179);
 }
-
+/* character sheet and sidebar share a container  */
 .sidebar {
     height: 100%;
     width: 30%;
-    /* background-color: rgb(213, 94, 0); */
     background-color: rgb(255, 231, 179);
+}
 
+.page2{
+    height: 95%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .7em;
+    font-weight: 700;
+    color: rgb(204, 121, 167, .6);
+    background-color:rgb(229, 246, 255);
+    /* background-color: rgb(213, 94, 0); */
 }
