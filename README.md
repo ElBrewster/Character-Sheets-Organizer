@@ -1,6 +1,12 @@
 ### `Abstract`
 It can be nice to evaluate how much HTML/CSS tooling you can do in a short space of time. This is a static composition of a webpage based on an image provided by my PM. I took liberties with colors and photos and theme, but otherwise faithfully repoduced the original image (see below my screen shot for the reference). The form, buttons, and search field are all functional and ready for JavaScript handling. I regret that I ran out of time to complete the article section, but am happy with what I was able to do.
 
+
+### `Contributors:`
+I am the sole contributor.
+    * [GitHub](https://github.com/ElBrewster)
+    * [LinkedIn](https://www.linkedin.com/in/el-brewster-9817b0255/)
+
 ## `Preview`
 <img alt="screen shot of composition" src="assets/Screen Shot 2022-12-16 at 4.15.24 PM.png">
 
