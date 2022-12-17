@@ -1,7 +1,11 @@
-###
+### `Abstract`
+It can be nice to evaluate how much HTML/CSS tooling you can do in a short space of time. This is a static composition of a webpage based on an image provided by my PM. I took liberties with colors and photos and theme, but otherwise faithfully repoduced the original image (see below my screen shot for the reference). The form, buttons, and search field are all functional and ready for JavaScript handling. I regret that I ran out of time to complete the article section, but am happy with what I was able to do.
+
+## `Preview`
 <img alt="screen shot of composition" src="assets/Screen Shot 2022-12-16 at 4.15.24 PM.png">
 
-### On Color Choice and Color Theory
+### `On Color Choice and Color Theory, Attributions`
+I've been thinking a lot about accessibility with color, and chose to implement some others' work here:
 I've used this person's work on reproducing the Okabe_Ito color palette:
 https://mikemol.github.io/technique/colorblind/2018/02/11/color-safe-palette.html
 
