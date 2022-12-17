@@ -507,14 +507,21 @@ form,
 }
 
 .page2{
-    height: 95%;
-    width: 95%;
+    height: 97%;
+    width: 90%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
     align-items: center;
     font-size: .7em;
     font-weight: 700;
     color: rgb(204, 121, 167, .6);
     background-color:rgb(229, 246, 255);
-    /* background-color: rgb(213, 94, 0); */
+}
+
+.invis-header {
+    height: 5%;
+    width: 100%;
+    background-color: rgb(255, 231, 179);
 }
